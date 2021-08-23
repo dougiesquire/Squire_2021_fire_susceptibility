@@ -1,0 +1,7 @@
+# Specific local files
+data/
+
+# python and jupyter notebook files
+.ipynb_checkpoints
+__pycache__
+.pytest_cache
