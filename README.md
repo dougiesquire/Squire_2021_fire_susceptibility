@@ -18,8 +18,3 @@ Figures are generated in the following notebooks:
  - **Fig S1**: `3_historical_precedent.ipynb`
  - **Fig S2**: `4_fidelity_testing.ipynb`
  - **Fig S3**: `4_fidelity_testing.ipynb`
-
-To clean up before publishing:
- - remove figure checks from `1.0_prepare_index_data.ipynb` comparing old and new data
- - keep only PBSCluster code cells
- - decide whether including masking of dt or not and edit code accordingly
