@@ -15,6 +15,9 @@ Figures are generated in the following notebooks:
  - **Fig 6**: `6_conditioning.ipynb`
  - **Fig 7**: `6_conditioning.ipynb`
  - **Fig 8**: `5_likelihoods.ipynb`
+ - **Fig S1**: `3_historical_precedent.ipynb`
+ - **Fig S2**: `4_fidelity_testing.ipynb`
+ - **Fig S3**: `4_fidelity_testing.ipynb`
 
 To clean up before publishing:
  - remove figure checks from `1.0_prepare_index_data.ipynb` comparing old and new data
