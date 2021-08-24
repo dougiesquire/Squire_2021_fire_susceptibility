@@ -38,32 +38,6 @@ def open_zarr(path, variables=None, region=None, preprocess=None, open_zarr_kwar
     return ds
 
 
-# def open_zarr_forecasts(paths, variables=None, region=None, preprocess=None, convert_time_to_lead=True,
-#                         time_name='time', open_zarr_kwargs={}):
-#     """ Open multiple forecast zarr collections and stack by initial date and lead time"""
-#     datasets = []; times = []
-#     for path in paths:
-#         ds = open_zarr(path, variables, region, preprocess, open_zarr_kwargs)
-#         init_date = ds[time_name].values[0]
-#         if convert_time_to_lead:
-#             lead_time = range(len(ds[time_name]))
-#             times.append(
-#                 ds[time_name].rename({time_name: 'lead_time'}
-#                 ).assign_coords({'lead_time': lead_time}))
-#             datasets.append(
-#                 ds.rename({time_name: 'lead_time'}
-#                 ).assign_coords({'lead_time': lead_time,
-#                                  'init_date': init_date}))
-#         else:
-#             datasets.append(
-#                 ds.assign_coords({'init_date': init_date}))
-#     dataset = xr.concat(datasets, dim='init_date')
-#     if convert_time_to_lead:
-#         time = xr.concat(times, dim='init_date')
-#         dataset = dataset.assign_coords({time_name: time})
-#     return dataset
-
-
 def open_zarr_forecasts(paths, variables=None, region=None, preprocess=None, convert_time_to_lead=True,
                         time_name='time', open_zarr_kwargs={}):
     """ Open multiple forecast zarr collections and stack by initial date and lead time"""
