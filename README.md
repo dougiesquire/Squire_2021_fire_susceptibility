@@ -1,7 +1,7 @@
 Code respository for:
 =====================
 
-    Likelihood of unprecedented drought and fire weather during Australia’s 2019/2020 megafires
+    Likelihood of unprecedented drought and fire weather during Australia’s 2019 megafires
     by Dougal T. Squire, Doug Richardson, James S. Risbey, Amanda S. Black, Vassili Kitsios, Richard J. Matear, Didier Monselesan, Thomas S. Moore and Carly R. Tozer    
 
 This repo contains all the code used to perform the analysis and generate the figures in the above paper. Notebooks are numbered according to the order in which they should be run.
