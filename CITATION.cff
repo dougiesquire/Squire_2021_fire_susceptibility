@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Squire"
+  given-names: "Dougal"
+  orcid: "https://orcid.org/0000-0003-3271-6874"
+title: "Codes for Squire et al. 2021"
+version: v0.2
+doi: 10.5281/zenodo.5566187
+date-released: 2021-10-13
+url: "https://github.com/dougiesquire/Squire_2021_fire_susceptibility"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Squire"
+    given-names: "Dougal T."
+    orcid: "https://orcid.org/0000-0003-3271-6874"
+  - family-names: "Richardson"
+    given-names: "Doug"
+  - family-names: "Risbey"                                
+    given-names: "James S."
+  - family-names: "Black"                                
+    given-names: "Amanda S."
+  - family-names: "Kitsios"                                
+    given-names: "Vassili"
+  - family-names: "Matear"                                
+    given-names: "Richard J."
+  - family-names: "Monselesan"                                
+    given-names: "Didier"
+  - family-names: "Moore"                                
+    given-names: "Thomas S."
+  - family-names: "Tozer"                                
+    given-names: "Carly R." 
+  journal: "npj Climate and Atmospheric Sciences"
+  title: "Likelihood of unprecedented drought and fire weather during Australia’s 2019 megafires"
+  year: 2021
